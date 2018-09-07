@@ -1,5 +1,5 @@
 # cityBuildingManagement
-Using binary search tree to manage buildings according to their data (age/height). All buildings in the city are well organized according to their year of construction.
+### Using binary search tree to do management job so that all buildings in the city are well organized according to their year of construction.
 
 The program is able to:
  * Find the oldest building in the city.
@@ -12,3 +12,4 @@ The program is able to:
    For example, receive 1968 , 1988 from the user. The program is able to give all buildings construted in this domain.
  * Find the total cost to repair buildings.
  
+The pdf file "A3" gives the instruction of this assignment from algorithm course.
