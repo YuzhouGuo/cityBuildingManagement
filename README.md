@@ -1,5 +1,5 @@
 # cityBuildingManagement
-### Using binary search tree to do management job so that all buildings in the city are well organized according to their year of construction.
+### Using binary search tree to do management job so that all buildings in a city are well organized according to their year of construction.
 
 The program is able to:
  * Find the oldest building in the city.
