@@ -32,7 +32,6 @@ public class Building {
 	}
 	
 	public Building addBuilding (OneBuilding b){
-		// ADD YOUR CODE HERE
 		Building nb = new Building(b);
 
 		if (b.yearOfConstruction == this.data.yearOfConstruction)
@@ -84,8 +83,7 @@ public class Building {
 		return this;
 	}
 	
-	public Building addBuildings (Building b){
-		// ADD YOUR CODE HERE			
+	public Building addBuildings (Building b){		
 		this.addBuilding(b.data);
 		
 		if (b.younger != null)
@@ -101,7 +99,6 @@ public class Building {
 	}
 	
 	public Building removeBuilding (OneBuilding b){
-		// ADD YOUR CODE HERE
 		if (this.findBuilding(b) == null)
 			return this;
 		
@@ -139,7 +136,6 @@ public class Building {
 	}
 	
 	public int oldest(){
-		// ADD YOUR CODE HERE
 		if (this.older == null)
 			return this.data.yearOfConstruction;
 		else
@@ -147,7 +143,6 @@ public class Building {
 	}
 	
 	public int highest(){
-		// ADD YOUR CODE HERE
 		int currentHeight = this.data.height;
 		int youngerHeight;
 		int olderHeight;
@@ -168,7 +163,6 @@ public class Building {
 	}
 	
 	public OneBuilding highestFromYear (int year){
-		// ADD YOUR CODE HERE
 		if ((year > this.data.yearOfConstruction) && (this.younger != null))
 			return this.younger.highestFromYear(year);
 		else if ((year < this.data.yearOfConstruction) && (this.older != null))
@@ -179,7 +173,6 @@ public class Building {
 	}
 	
 	public int numberFromYears (int yearMin, int yearMax){
-		// ADD YOUR CODE HERE
 		if (yearMin > yearMax)
 			return 0;
 		
@@ -190,7 +183,6 @@ public class Building {
 	}
 	
 	public int[] costPlanning (int nbYears){
-		// ADD YOUR CODE HERE
 		int[] cost = new int[nbYears];
 		
 		if ((this.data.yearForRepair<=(2018+nbYears-1)) && (this.data.yearForRepair>=2018))
@@ -244,7 +236,6 @@ public class Building {
 	}
 	
 	public int numberFromYear (int year){
-		// ADD YOUR CODE HERE
 		int counter  = 0;
 		
 		if (this.younger != null)
