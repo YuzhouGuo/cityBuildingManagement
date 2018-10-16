@@ -11,5 +11,3 @@ The program is able to:
  
    For example, receive 1968 , 1988 from the user. The program is able to give all buildings construted in this domain.
  * Find the total cost to repair buildings.
- 
-The pdf file "A3" gives the instruction of this assignment from algorithm course.
